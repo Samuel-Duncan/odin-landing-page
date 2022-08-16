@@ -1,0 +1,49 @@
+body {
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.top {
+  background-color: #1F2937;
+  padding: 24px 192px;
+  display: flex;
+  flex-direction: column;
+}
+
+.upper-header,
+.lower-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+.header-logo {
+  font-size: 24px;
+}
+
+.header-links {
+  display: flex;
+  gap: 24px;
+}
+
+.this-website {
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background-color: #3882F6;
+  border-radius: 6px;
+  padding: 6px;
+}
