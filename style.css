@@ -67,6 +67,7 @@ button, .bottom-box {
 
 .illustrations {
   display: flex;
+  width: 750px;
   gap: 20px;
 }
 
@@ -107,8 +108,7 @@ h2 {
   align-items: center;
   justify-content: space-around;
   padding: 24px;
-  
-  width: 750px;
+  width: 1500px;
 }
 
 .bottom {
