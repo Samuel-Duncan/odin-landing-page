@@ -1,5 +1,9 @@
 body {
-
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  flex: 1;
 }
 
 a {
@@ -16,8 +20,9 @@ a {
 
 .upper-header,
 .lower-header {
+  color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-bottom: 48px;
 }
 
@@ -43,7 +48,9 @@ h1 {
 }
 
 button, .bottom-box {
+  color: white;
   background-color: #3882F6;
+  border-color: white;
   border-radius: 6px;
   padding: 6px;
 }
@@ -52,6 +59,7 @@ button, .bottom-box {
   display: flex;
   flex-direction: column;
   text-align: center;
+  align-items: center;
   padding: 12px 288px;
   margin-bottom: 48px;
   gap: 12px;
@@ -74,8 +82,10 @@ h2 {
 
 .quote-container {
   display: flex;
+  width: 750px;
   flex-direction: column;
   margin-bottom: 24px;  
+  text-align: left;
 }
 
 .quote {
@@ -92,12 +102,31 @@ h2 {
 }
 
 .bottom-box {
+  color: white;
   display: flex;
+  align-items: center;
   justify-content: space-around;
   padding: 24px;
-  align-items: center;
+  
+  width: 750px;
 }
 
 .bottom {
   padding: 24px 192px;
+  margin-bottom: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  background-color: #1F2937;
+  color: white;
+  height: 104px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
