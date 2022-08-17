@@ -47,3 +47,21 @@ button {
   border-radius: 6px;
   padding: 6px;
 }
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 12px 192px;
+  gap: 20px;
+}
+
+.illustrations {
+  display: flex;
+  gap: 20px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight:900px;
+}
