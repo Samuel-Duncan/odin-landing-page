@@ -42,18 +42,19 @@ h1 {
   padding: 0;
 }
 
-button {
+button, .bottom-box {
   background-color: #3882F6;
   border-radius: 6px;
   padding: 6px;
 }
 
-.middle {
+.middle, .middle-two {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 12px 192px;
-  gap: 20px;
+  padding: 12px 288px;
+  margin-bottom: 48px;
+  gap: 12px;
 }
 
 .illustrations {
@@ -64,4 +65,39 @@ button {
 h2 {
   font-size: 36px;
   font-weight:900px;
+}
+
+.middle-two {
+  background-color: #E5E7EB;
+  padding-bottom: 24px;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;  
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: bo;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.credit {
+  align-self: flex-end;
+  font-weight: bolder;
+  margin-top: 12px;
+}
+
+.bottom-box {
+  display: flex;
+  justify-content: space-around;
+  padding: 24px;
+  align-items: center;
+}
+
+.bottom {
+  padding: 24px 192px;
 }
